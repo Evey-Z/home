@@ -57,6 +57,17 @@
     text-indent: 30px;
     color: #d3d6da;
 }
+
+
+    .comonbox-z ul li:nth-of-type(2){
+    background: url(../img/001.png) no-repeat;
+}
+    .comonbox-z ul li:nth-of-type(3){
+    background: url(../img/002.png) no-repeat;
+}
+    .comonbox-z ul li:nth-of-type(4){
+    background: url(../img/003.png) no-repeat;
+}
 .comonbox-z h2{
     font-size: 17px;
     color: #34495e;
@@ -79,6 +90,10 @@
 }
 .yupain-5 {
     margin-top: 44px;
+    border-bottom: #1abc9c 1px solid;
+}
+.yupain-6{
+    border: none;
 }
 .yupain-5 li{
 width: 47px;
@@ -90,12 +105,15 @@ background: #ecf0f1;
  text-align: center;
  display: inline-block;
  line-height: 41px;
- margin-right: 4px;
+ margin-right: 12px;
  color: #34495e;
  font-size: 13px;
  font-weight: bold;
  transition: all 0.5s;
  border-radius: 3px;
+}
+.yupain-5 li:nth-last-of-type(1){
+    margin-right: 0!important;
 }
 .yupain-5 li:hover{
     background: #1abc9c;
@@ -271,3 +289,14 @@ background: #ecf0f1;
            .sbox{
                margin-top: 10px;
            }
+           .bigbox h4{
+               font-size: 42px;
+               color: #fff;
+               margin-top: 75px;
+           }
+            .bigbox h6{
+                margin-top: 20px;
+                font-size: 15px;
+                color: #fff;
+
+            }

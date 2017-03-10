@@ -35,19 +35,29 @@
 }
 .topright ul li{
     float: right;
-    margin-right: 30px;
+    margin-right: 8px;
        line-height: 35px;
     color: #d0d4d7;
     font-size: 11px;
+      width: 82px;
+    height: 36px;
+    background: rgba(26, 188, 156, 0);
+    text-align: center;
 }
 .fangda{
     margin-top: 10px;
+    
 }
-.topright ul li:nth-last-of-type(1){
-    width: 72px;
-    background: #1abc9c;
-text-align: center;
-color: #fff;
+.topright ul li:hover {
+    background: rgba(26, 188, 156, 1);
+    color: #fff;}
+
+
+
+.topright ul li:nth-of-type(1){
+    background: white;
+    margin-left: 30px;
+    width: 40px;
 }
 .top-down{
     margin-top: 106px;
@@ -111,7 +121,7 @@ color: #fff;
        .xiaobox dl dd:nth-of-type(1){
            margin-bottom: 23px;
        }
-        .xiaobox ul li{
+        .xiaobox .bians1 li{
             width: 42px;
             height: 36px;
             background: #ecf0f1;
@@ -120,18 +130,18 @@ color: #fff;
             transition: all 0.4s;
             margin-right: 2px;
         }
-           .xiaobox ul li img{
+           .xiaobox .bians1 li img{
                position: absolute;
                left: 13px;
                top:12px;
            }
-            .xiaobox ul li:hover{
+            .xiaobox .bians1 li:hover{
                 background: #00acee;
             }
-              .xiaobox ul li:hover .img-1{
+              .xiaobox .bians1 li:hover .img-1{
                   z-index: 999;
               }
-           .xiaobox ul li  .img-2{
+           .xiaobox .bians1 li  .img-2{
                    position: absolute;
                    top:14px;
                }
@@ -151,13 +161,25 @@ color: #fff;
                       margin-bottom: 24px;
                       margin-top: 12px;
                   }
+                   .xiaobox-3 dd{
+                       padding-top: 10px;
+                       padding-left: 10px;
+                   }
                   .xiaobox-3 dl .dd-1{
                       height: 58px;
                       background: #ecf0f1;
                       
                   }
+                  .xiaobox-3 h5{
+    color: #bdc3c7;
+font-size: 17px;
+margin-bottom: 39px;
+}
+                  .xiaobox-3 dl :hover{
+                     color: #00acee;
+                  }
                     .xiaobox-3 dl .dd-2{
-                           height: 78px;
+                           height: 58px;
                       background: #ecf0f1;
                     }
                           
@@ -187,4 +209,28 @@ color: #fff;
                      margin-top: 35px;
                      color: #cacfd2;
                  }
+                 .xiaobox .kuang-1 li{
+width: 60px;
+height: 52px;
+border: #e2e8e9 1px solid;
+background: #fff;
+float: left;
+margin-right: 6px;
+margin-bottom: 6px;
+transition: all 0.4s;
+
+}
+.xiaobox .kuang-1 li img{
+    margin: 0 auto;
+    padding: 3px;
+
+}
+.xiaobox .kuang-1 li:hover{
+    border: 1px solid #1abc9c;
+    background: #1abc9c;
+}
+.xiaobox .kuang-1 li:nth-of-type(4n){
+margin-right: 0!important;
+}
+
            
