@@ -1,0 +1,190 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+    overflow: hidden;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clear-mr{
+    margin-right: 0!important;
+}
+
+.top-lo{
+    padding-top: 25px;
+}
+.topleft ul{
+    height: 35px;
+}
+.topleft ul li{
+    float: left;
+    line-height: 35px;
+    color: #d0d4d7;
+    font-size: 15px;
+    margin-right: 12px;
+    
+}
+.topright ul {
+       height: 35px;
+}
+.topright ul li{
+    float: right;
+    margin-right: 30px;
+       line-height: 35px;
+    color: #d0d4d7;
+    font-size: 11px;
+}
+.fangda{
+    margin-top: 10px;
+}
+.topright ul li:nth-last-of-type(1){
+    width: 72px;
+    background: #1abc9c;
+text-align: center;
+color: #fff;
+}
+.top-down{
+    margin-top: 106px;
+    margin-bottom: 54px;
+
+}
+.downleft{
+    color: #bdc3c7
+}
+.downleft h2{
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+.downleft h3{
+    font-size: 12px;
+}
+.downright ul li{
+    float: left;
+    margin-top: 21px;
+    margin-left: 8px;
+}
+.downright h1{
+    font-size: 16px;
+    color: #bdc3c7;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bigbox{
+       /*height: 331px;*/
+       /*border: 1px solid gold;*/
+       margin-top: 67px;
+
+   }
+   .xiaobox{
+       width: 270px;
+         /*border: 1px solid gold;*/
+         height: 331px;
+         float: left;
+         margin-right: 26px;
+   }
+     .xiaobox dl dt{
+         color: #bdc3c7;
+         font-size: 20px;
+         margin-bottom: 39px;
+     }
+       .xiaobox dl dd{
+           color: #d4d8db;
+           font-size: 13px;
+           line-height: 18px;
+           margin-bottom: 15px;
+       }
+       .xiaobox dl dd:nth-of-type(1){
+           margin-bottom: 23px;
+       }
+        .xiaobox ul li{
+            width: 42px;
+            height: 36px;
+            background: #ecf0f1;
+            position: relative;
+            float: left;
+            transition: all 0.4s;
+            margin-right: 2px;
+        }
+           .xiaobox ul li img{
+               position: absolute;
+               left: 13px;
+               top:12px;
+           }
+            .xiaobox ul li:hover{
+                background: #00acee;
+            }
+              .xiaobox ul li:hover .img-1{
+                  z-index: 999;
+              }
+           .xiaobox ul li  .img-2{
+                   position: absolute;
+                   top:14px;
+               }
+               .xiaobox-2 h1{
+                      color: #bdc3c7;
+         font-size: 20px;
+         margin-bottom: 39px;
+               }
+                 .xiaobox-2 h2{
+                     color: #c6cbce;
+                     font-size: 13px;
+               
+                 }
+                  .xiaobox-2 p{
+                      color: #c6cbce;
+                      font-size: 11px;
+                      margin-bottom: 24px;
+                      margin-top: 12px;
+                  }
+                  .xiaobox-3 dl .dd-1{
+                      height: 58px;
+                      background: #ecf0f1;
+                      
+                  }
+                    .xiaobox-3 dl .dd-2{
+                           height: 78px;
+                      background: #ecf0f1;
+                    }
+                          
+                    .xiaobox-3 dl .dd-3{
+                           height: 60px;
+                      background: #ecf0f1;
+                    }
+                     .xiaobox-4 img{
+                          float: left;
+                          margin-right: 17px;
+                          margin-bottom: 17px;
+                     }
+                        .xiaobox-4 img:nth-of-type(4n){
+                            margin-right: 0!important;
+                        }
+
+               .xiaobox-4 h1{
+                                     color: #bdc3c7;
+         font-size: 20px;
+         margin-bottom: 39px;
+               }
+               .foot-border{
+                   height: 83px;
+                   border-top: 1px solid #ecf0f1;
+               }
+                 .foot-border h2,p{
+                     margin-top: 35px;
+                     color: #cacfd2;
+                 }
+           
